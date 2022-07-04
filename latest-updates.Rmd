@@ -1,0 +1,11 @@
+
+```{r, include=FALSE}
+#Load necessary libraries
+library(emojifont)
+library(knitr)
+
+```
+
+# Latest updates {#latest-updates -}
+
+`r emoji("sparkles")` Here we publish news about the latest updates to PathVisio. 
