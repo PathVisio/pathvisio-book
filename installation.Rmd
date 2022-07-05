@@ -9,7 +9,7 @@ library(knitr)
 # Installation
 
 * Newest version: **[PathVisio 4.0.0](https://github.com/PathVisio/pathvisio4-ant/)** 
-** under construction `r emoji("construction")`, please check back later `r emoji("eyes")`
+** under construction `r emoji("construction")`. Please check back later `r emoji("eyes")`
 
 PathVisio 4.x requires the installation of **Java 11**! 
 

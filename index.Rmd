@@ -36,11 +36,16 @@ library(knitr)
 knitr::include_graphics("images/pathways/TCA_cycle.png")
 ```
 
+## `r emoji("memo")` About PathVisio {-}
+This current version of PathVisio 4.0.0 builds upon the 3.x architecture and libGPML. 
+
+Graphical Pathway Markup Language ([GPML](https://pathvisio.org/documentation/GPML)) is the native file format used store and edit pathway models in [PathVisio](https://pathvisio.org) and share them on [WikiPathways](https://www.wikipathways.org/index.php/WikiPathways).
+
+Please check out New Features for information and links for updates. 
+
 ## `r emoji("dart")` Motivation {-}
 
 This book is meant as a guide for the installation and use of PathVisio, including some information on biogical concepts.
-
-This current version of PathVisio 4.0.0 builds upon the 3.x architecture and libGPML. Please check out New Features for information and links for updates. 
 
 This book is **currently under development** `r emoji("construction")` and will be updated to reflect all the latest changes in PathVisio. We will continue to improve both the software, book, and documentation of PathVisio. 
 
@@ -55,22 +60,22 @@ If you use PathVisio in published research, please cite the most appropriate pap
 
 ## `r emoji("books")` Book structure {-}
 
-* Welcome
-* [Latest Updates](latest-updates)
-* [Getting started](getting-started)
-* [Pathway model components](pathway-model-components)
-* [Pathway model information](pathway-model-information)
-* [Styles](styles)
-* [Plugins](plugins)
+- Welcome
+- [Latest Updates](latest-updates)
+- [Getting started](getting-started)
+- [Pathway model components](pathway-model-components)
+- [Pathway model information](pathway-model-information)
+- [Styles](styles)
+- [Plugins](plugins)
 
 
 ## `r emoji("globe_with_meridians")` Related Links and Resources {-}
 
-* [PathVisio](https://pathvisio.org/) main site
-* [GPML](https://pathvisio.org/documentation/GPML) documentation
-* [libGPML](https://github.com/PathVisio/libGPML) an open-source Java library for working with GPML (Graphical Pathway Markup Language).
-* [WikiPathways](https://www.wikipathways.org/) 
-* ...
+- [PathVisio](https://pathvisio.org/) main site
+- [GPML](https://pathvisio.org/documentation/GPML) documentation
+- [libGPML](https://github.com/PathVisio/libGPML) an open-source Java library for working with GPML (Graphical Pathway Markup Language).
+- [WikiPathways](https://www.wikipathways.org/) 
+- ...
 
 
 ## `r emoji("bulb")` Want to help? {-}
@@ -85,7 +90,3 @@ The source code for this book is hosted on GitHub, at <https://github.com/>. Any
 **Former developers:** Andra Waagmeester, Anwesha Bohler, Jonathan Melius, Martijn van Iersel, Thomas Kelder 
 
 **Contributors:** Adem Bilicna, Augustin Luna, Bing Liu, Christ Leemans, Eric Creussen, Erik Pelgrin, Esterh Neuteboom, Ferry Jagers, Hakim Achterberg, Harm Nijveen, Irene Kaashoek, Justin Elser, Kumar Chanden, Lars Willighagen, Margot Sunshine, Mark Woon, Margiet Palm, Pim Moeskops, Praveen Kumar, Rene Besseling, Rianne Fijten, Sjoerd Crijns, Sravanthi Sinha, Stefan van Helden 
-
-```{r fig.align="center", out.width = "570px", echo=FALSE}
-knitr::include_graphics("images/logos/UM_PathVIsio_BiGCaT_Logo.png")
-```

@@ -1,3 +1,15 @@
+
+```{r, include=FALSE}
+#Load necessary libraries
+library(emojifont)
+library(knitr)
+```
+
 # Tutorials
 
-Have a look at [our tutorials](https://pathvisio.org/tutorials) for pathway modeling, introduction to PathVisio and other basic and advanced tutorials.
+Have a look at [our tutorials](https://pathvisio.org/tutorials) for pathway modeling, introduction to PathVisio and other basic and advanced tutorials `r emoji("woman_teacher")` 
+
+```{r, include-url, out.width='100%', dev='png', cache=TRUE, screenshot.opts=list(vwidth=992), echo=FALSE}
+# tutorials 
+knitr::include_url("https://pathvisio.org/tutorials")
+```
