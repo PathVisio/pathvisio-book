@@ -33,7 +33,7 @@ library(knitr)
 # Welcome {-} 
 ```{r fig.align="center", echo=FALSE, fig.cap = "Example TCA cycle pathway ([WP78](https://www.wikipathways.org/index.php/Pathway:WP78)) drawn using PathVisio and hosted on WikiPathways"}
 #TCA Cycle Pathway
-knitr::include_graphics("images/pathways/TCA_cycle.png")
+knitr::include_graphics("images/pathways/TCA-cycle.png")
 ```
 
 ## `r emoji("memo")` About PathVisio {-}

@@ -37,7 +37,7 @@ rmd_files:
     "styles.Rmd",
     "make-it-pretty.Rmd",
     "themes.Rmd",
-    "wikipathways-palette.Rmd",
+    "color-palettes.Rmd",
 
     "plugins.Rmd",
 
