@@ -1,5 +1,41 @@
-book_filename: "bookdown-demo"
+book_filename: "PathVisio Book"
 language:
   ui:
     chapter_name: "Chapter "
 delete_merged_file: true
+
+new_session: yes
+rmd_files:
+  [
+    "index.Rmd",
+    "latest-updates.Rmd",
+
+    "getting-started.Rmd",
+    "installation.Rmd",
+    "pathway-basics.Rmd",
+    "drawing-pathway.Rmd",
+    "saving-pathway.Rmd",
+    "sharing-pathway.Rmd",
+    "tutorials.Rmd",
+
+    "pathway-model-components.Rmd",
+    "datanodes.Rmd",
+    "states.Rmd",
+    "interactions.Rmd",
+    "graphical-lines.Rmd",
+    "labels.Rmd",
+    "shapes.Rmd",
+    "groups.Rmd",
+
+    "pathway-model-info.Rmd",
+    "pathway-meta-info.Rmd",
+    "pathway-element-info.Rmd",
+    "reference-information.Rmd",
+
+    "styles.Rmd",
+    "themes.Rmd",
+    "wikipathways-palette.Rmd",
+
+    "plugins.Rmd",
+
+  ]

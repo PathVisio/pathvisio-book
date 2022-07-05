@@ -1,7 +1,7 @@
 --- 
 title: "PathVisio Book"
 author: "Finterly Hu"
-date: "`r Sys.Date()`"
+date: "2022-07-05"
 site: bookdown::bookdown_site
 output: bookdown::bs4_book
 documentclass: book
@@ -14,37 +14,25 @@ description: "Guide book for PathVisio."
 always_allow_html: yes
 ---
 
-```{r eval=FALSE, echo=FALSE}
-#Install required packages
-install.packages("bookdown")
-install.packages("emojifont")
 
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
 
-```{r, include=FALSE}
-#Load necessary libraries
-library(emojifont)
-library(knitr)
 
-```
 
 # Welcome {-} 
-```{r fig.align="center", echo=FALSE, fig.cap = "Example TCA cycle pathway ([WP78](https://www.wikipathways.org/index.php/Pathway:WP78)) drawn using PathVisio and hosted on WikiPathways"}
-#TCA Cycle Pathway
-knitr::include_graphics("images/pathways/TCA_cycle.png")
-```
+<div class="figure" style="text-align: center">
+<img src="images/pathways/TCA_cycle.png" alt="Example TCA cycle pathway ([WP78](https://www.wikipathways.org/index.php/Pathway:WP78)) drawn using PathVisio and hosted on WikiPathways" width="488" />
+<p class="caption">(\#fig:unnamed-chunk-3)Example TCA cycle pathway ([WP78](https://www.wikipathways.org/index.php/Pathway:WP78)) drawn using PathVisio and hosted on WikiPathways</p>
+</div>
 
-## `r emoji("dart")` Motivation {-}
+## 🎯 Motivation {-}
 
 This book is meant as a guide for the installation and use of PathVisio, including some information on biogical concepts.
 
 This current version of PathVisio 4.0.0 builds upon the 3.x architecture and libGPML. Please check out New Features for information and links for updates. 
 
-This book is **currently under development** `r emoji("construction")` and will be updated to reflect all the latest changes in PathVisio. We will continue to improve both the software, book, and documentation of PathVisio. 
+This book is **currently under development** 🚧 and will be updated to reflect all the latest changes in PathVisio. We will continue to improve both the software, book, and documentation of PathVisio. 
 
-## `r emoji("memo")` Citation {-}
+## 📝 Citation {-}
 
 If you use PathVisio in published research, please cite the most appropriate paper(s) from this list:
 
@@ -53,7 +41,7 @@ If you use PathVisio in published research, please cite the most appropriate pap
 2. Kutmon M, van Iersel MP, Bohler A, Kelder T, Nunes N, Pico AR, Evelo CT. PathVisio 3: an extendable pathway analysis toolbox. PLoS Comput Biol. 2015 Feb 23;11(2):e1004085. doi: [10.1371/journal.pcbi.1004085](https://doi.org/10.1371/journal.pcbi.1004085). PMID: [25706687](https://pubmed.ncbi.nlm.nih.gov/25706687/); PMCID:[PMC4338111](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4338111/).
 
 
-## `r emoji("books")` Book structure {-}
+## 📚 Book structure {-}
 
 * Welcome
 * [Latest Updates](latest-updates)
@@ -64,7 +52,7 @@ If you use PathVisio in published research, please cite the most appropriate pap
 * [Plugins](plugins)
 
 
-## `r emoji("globe_with_meridians")` Related Links and Resources {-}
+## 🌐 Related Links and Resources {-}
 
 * [PathVisio](https://pathvisio.org/) main site
 * [GPML](https://pathvisio.org/documentation/GPML) documentation
@@ -73,12 +61,12 @@ If you use PathVisio in published research, please cite the most appropriate pap
 * ...
 
 
-## `r emoji("bulb")` Want to help? {-}
+## 💡 Want to help? {-}
 
 The source code for this book is hosted on GitHub, at <https://github.com/>. Any feedback or suggestions are welcome. Feel free to [open an issue](https://github.com/) on GitHub.
 
 
-## `r emoji("raised_hands")` Acknowledgements {-} 
+## 🙌 Acknowledgements {-} 
 
 **Core developers:** Martina Kutmon, Finterly Hu, Nuno Nunes, Alexander Pico, Egon Willighagen, Denise Slenter, Kristina Hanspers    
 
@@ -86,6 +74,4 @@ The source code for this book is hosted on GitHub, at <https://github.com/>. Any
 
 **Contributors:** Adem Bilicna, Augustin Luna, Bing Liu, Christ Leemans, Eric Creussen, Erik Pelgrin, Esterh Neuteboom, Ferry Jagers, Hakim Achterberg, Harm Nijveen, Irene Kaashoek, Justin Elser, Kumar Chanden, Lars Willighagen, Margot Sunshine, Mark Woon, Margiet Palm, Pim Moeskops, Praveen Kumar, Rene Besseling, Rianne Fijten, Sjoerd Crijns, Sravanthi Sinha, Stefan van Helden 
 
-```{r fig.align="center", out.width = "570px", echo=FALSE}
-knitr::include_graphics("images/logos/UM_PathVIsio_BiGCaT_Logo.png")
-```
+<img src="images/logos/UM_PathVIsio_BiGCaT_Logo.png" width="570px" style="display: block; margin: auto;" />

@@ -1,4 +1,4 @@
-# (PART\*) Plugins {.unnumbered}
+# (PART\*) Plugins {.unnumbered #plugins}
 
-# Available plugins {#plugin-intro}
+# Available plugins {#plugins-intro}
 
