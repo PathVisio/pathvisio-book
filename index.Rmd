@@ -60,13 +60,15 @@ If you use PathVisio in published research, please cite the most appropriate pap
 
 ## `r emoji("books")` Book structure {-}
 
-- Welcome
-- [Latest Updates](latest-updates)
-- [Getting started](getting-started)
-- [Pathway model components](pathway-model-components)
-- [Pathway model information](pathway-model-information)
-- [Styles](styles)
-- [Plugins](plugins)
+- Welcome 
+- Latest Updates: provides the latest news on PathVisio updates
+
+Sections 
+- Getting started : 
+- Pathway model components : 
+- Pathway model information : 
+- Styles :   
+- Plugins : 
 
 
 ## `r emoji("globe_with_meridians")` Related Links and Resources {-}

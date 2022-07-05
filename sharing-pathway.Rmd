@@ -12,8 +12,8 @@ Share your pathway models on WikiPathways!
 ### Notice
 We are currently moving to a new WikiPathways site
 
-new: [https://new.wikipathways.org](https://new.wikipathways.org)
-current: [https://www.wikipathways.org](https://www.wikipathways.org/index.php/WikiPathways). 
+- new: [https://new.wikipathways.org](https://new.wikipathways.org)
+- current: [https://www.wikipathways.org](https://www.wikipathways.org/index.php/WikiPathways). 
 
 ```{r, include-url, out.width='100%', dev='png', cache=TRUE, screenshot.opts=list(vwidth=992), echo=FALSE}
 # example pathways on wikipathways 

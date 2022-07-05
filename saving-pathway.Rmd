@@ -1,5 +1,11 @@
-# Saving your pathway model
 
+```{r, include=FALSE}
+#Load necessary libraries
+library(emojifont)
+library(knitr)
+```
+
+# Saving your pathway model
 
 ## Graphical Pathway Markup Language (GPML)
 
@@ -7,7 +13,7 @@ Graphical Pathway Markup Language ([GPML](https://pathvisio.org/documentation/GP
 
 The current GPML version used is **GPML2021**. 
 
-Please note that PathVisio 4.0.0 (which uses libGPML) works with GPML version 2021 and 2013a. When a pathway model written in GPML2013a is opened in PathVisio 4.x it will be *automatically* converted into GPML2021 when saved. 
+Please note that PathVisio 4.0.0 (which uses libGPML) works with GPML version 2021 and 2013a. When a pathway model written in GPML2013a is opened in PathVisio 4.x it will be ***automatically*** converted into GPML2021 when saved. 
 
 To save a pathway model as GPML2013a format, please export it as GPML2013a format. 
 

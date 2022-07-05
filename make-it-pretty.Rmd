@@ -1,0 +1,10 @@
+
+```{r, include=FALSE}
+#Load necessary libraries
+library(emojifont)
+library(knitr)
+```
+
+# Make it pretty 
+
+In this section we describe some of the options for customizing the visuals or graphics of your pathway model. 

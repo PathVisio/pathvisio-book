@@ -19,6 +19,7 @@ rmd_files:
     "tutorials.Rmd",
 
     "pathway-model-components.Rmd",
+    "pathway-elements.Rmd",
     "datanodes.Rmd",
     "states.Rmd",
     "interactions.Rmd",
@@ -28,11 +29,13 @@ rmd_files:
     "groups.Rmd",
 
     "pathway-model-info.Rmd",
+    "why-add-info.Rmd",
     "pathway-meta-info.Rmd",
     "pathway-element-info.Rmd",
     "reference-information.Rmd",
 
     "styles.Rmd",
+    "make-it-pretty.Rmd",
     "themes.Rmd",
     "wikipathways-palette.Rmd",
 

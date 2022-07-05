@@ -1,0 +1,10 @@
+
+```{r, include=FALSE}
+#Load necessary libraries
+library(emojifont)
+library(knitr)
+```
+
+# Why add information? 
+
+In the 
