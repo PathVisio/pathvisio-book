@@ -28,6 +28,6 @@ Hanspers K, Kutmon M, Coort SL, Digles D, Dupuis LJ, Ehrhart F, Hu F, Lopes EN, 
 
 ## `r emoji("globe_with_meridians")` Resources for Pathway Authors
 
-- WikiPathways [Resources for Pathway Authors and Curators](https://www.wikipathways.org/index.php/Help:Authors) 
-- 
-- ...
+* WikiPathways [Resources for Pathway Authors and Curators](https://www.wikipathways.org/index.php/Help:Authors) 
+* 
+* ...

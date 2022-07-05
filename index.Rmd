@@ -60,24 +60,25 @@ If you use PathVisio in published research, please cite the most appropriate pap
 
 ## `r emoji("books")` Book structure {-}
 
-- Welcome 
-- Latest Updates: provides the latest news on PathVisio updates
+* Welcome 
+* Latest Updates: provides the latest news on PathVisio updates
 
 Sections 
-- Getting started : 
-- Pathway model components : 
-- Pathway model information : 
-- Styles :   
-- Plugins : 
+
+* Getting started : 
+* Pathway model components : 
+* Pathway model information : 
+* Styles :   
+* Plugins : 
 
 
 ## `r emoji("globe_with_meridians")` Related Links and Resources {-}
 
-- [PathVisio](https://pathvisio.org/) main site
-- [GPML](https://pathvisio.org/documentation/GPML) documentation
-- [libGPML](https://github.com/PathVisio/libGPML) an open-source Java library for working with GPML (Graphical Pathway Markup Language).
-- [WikiPathways](https://www.wikipathways.org/) 
-- ...
+* [PathVisio](https://pathvisio.org/) main site
+* [GPML](https://pathvisio.org/documentation/GPML) documentation
+* [libGPML](https://github.com/PathVisio/libGPML) an open-source Java library for working with GPML (Graphical Pathway Markup Language).
+* [WikiPathways](https://www.wikipathways.org/) 
+* ...
 
 
 ## `r emoji("bulb")` Want to help? {-}

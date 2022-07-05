@@ -8,22 +8,24 @@ The WikiPathways Theme is the recommended theme for pathway model components (es
 
 When the WikiPathways Theme is applied to a pathway model, data node graphics color and shape type are set to their default values!   
 
+### Some things to consider
+
+* Applying a theme may cause undesired changes. 
+* Users may choose to "Preview" a theme before applying it. 
+* Immediately after a theme is applied, it can still be removed with "Undo". 
+* A user may need to further manually edit their pathway model to achieve the desired look. 
+* Users are free to choose their own colors, but please be aware of the recommended default colors and shapes for data nodes.  
+
+### An Example
 
 In the figure below, we see a pathway [Hijack of ubiquitination by SARS-CoV-2 (Homo sapiens)](https://www.wikipathways.org/index.php/Pathway:WP4860#nogo2) for which the WikiPathways Theme was applied - before on the left, after on the right. As you can see, aside from the **Orf10** protein, there is a slight change in the hue of the colors. 
-
-Blue (metabolite), Green (Pathway), and Gray (Group) are slightly different as they are the particular shades defined by WikiPathways [Style](https://new.wikipathways.org/style). The original blue, green, and gray colors are typical of Pathvisio 3.x. While in PathVisio 4.x the new default colors match WikiPathways. 
-
-In the case of **Orf10**, the creator of this pathway had originally chosen a round pink shape to indicate that this protein of SARS-CoV-2 rather than Homo Sapiens. However, the WikiPathway Theme defines data nodes of type protein as black rectangles. To recover the appearance of **Orf10**, the creator may choose to further manually edit the pathway model. 
 
 ```{r fig.align="center", echo=FALSE, fig.cap = "Pathway before (left) and after (right) WikiPathways Theme is applied"}
 knitr::include_graphics("images/pathways/theme-colored-pathways.png")
 ```
 
-### Some things to consider: 
+Blue (metabolite), Green (Pathway), and Gray (Group) are slightly different as they are the particular shades defined by WikiPathways [Style](https://new.wikipathways.org/style). The original blue, green, and gray colors are typical of Pathvisio 3.x. While in PathVisio 4.x the new default colors match WikiPathways. 
 
-- Applying a theme may cause undesired changes. 
-- Users may choose to "Preview" a theme before applying it. 
-- Immediately after a theme is applied, it can still be removed with "Undo". 
-- A user may need to further manually edit their pathway model to achieve the desired look. 
-- Users are free to choose their own colors, but please be aware of the recommended default colors and shapes for data nodes.  
+In the case of **Orf10**, the creator of this pathway had originally chosen a round pink shape to indicate that this protein of SARS-CoV-2 rather than Homo Sapiens. However, the WikiPathway Theme defines data nodes of type protein as black rectangles. To recover the appearance of **Orf10**, the creator may choose to further manually edit the pathway model. 
+
 

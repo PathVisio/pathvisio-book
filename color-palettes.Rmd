@@ -9,12 +9,12 @@ library(knitr)
 
 `r emoji("art")`
 
-- Swatches
-- HSV (hue, saturation, value; also known as HSB, for hue, saturation, brightness)
-- HSL (hue, saturation, lightness)
-- RBG (red, blue, green)
-- CMYK (cyan, magenta, yellow, black) 
-- WikiPathways (custom/recommended colors from WikiPathways Theme)
+* Swatches
+* HSV (hue, saturation, value; also known as HSB, for hue, saturation, brightness)
+* HSL (hue, saturation, lightness)
+* RBG (red, blue, green)
+* CMYK (cyan, magenta, yellow, black) 
+* WikiPathways (custom/recommended colors from WikiPathways Theme)
 
 
 ## WikiPathways palette

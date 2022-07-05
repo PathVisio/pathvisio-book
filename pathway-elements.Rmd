@@ -11,6 +11,6 @@ Here we describe some of the commonly used terminology and concepts used in Path
 
 The main components of a pathway model are referred to as **Pathway Elements**. 
 
-- DataNodes 
-- States 
-- 
+* DataNodes 
+* States 
+* 

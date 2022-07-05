@@ -19,18 +19,20 @@ To save a pathway model as GPML2013a format, please export it as GPML2013a forma
 
 ## PathVisio File Formats
 Default file format is GPML2021
-- GPML file (.gpml, .xml)
+
+* GPML file (.gpml, .xml)
 
 Pathway models can be exported into the following other formats
-- GPML2013a file  (.gpml, .xml)
-- PDF (.pdf)
-- PNG (.png)
-- SVG (.svg)
-- DataNode list (.txt)
-- Eu. Gene pathway (.pwf)
+
+* GPML2013a file  (.gpml, .xml)
+* PDF (.pdf)
+* PNG (.png)
+* SVG (.svg)
+* DataNode list (.txt)
+* Eu. Gene pathway (.pwf)
 
 ## `r emoji("globe_with_meridians")` Resources
 
-- [Documentation for GPML](https://pathvisio.org/documentation/GPML)) 
-- 
-- ...
+* [Documentation for GPML](https://pathvisio.org/documentation/GPML)) 
+* 
+* ...
