@@ -1,7 +1,5 @@
 # Pathway element information
 
-Some _significant_ applications are demonstrated in this chapter.
+## Database and Identifier
 
-## Example one
 
-## Example two

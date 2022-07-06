@@ -13,4 +13,9 @@ The main components of a pathway model are referred to as **Pathway Elements**.
 
 * DataNodes 
 * States 
-* 
+* Interactions
+* Graphical Lines
+* Labels
+* Shapes
+* Groups
+

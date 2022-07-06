@@ -1,7 +1,6 @@
 # Pathway meta information
 
-Some _significant_ applications are demonstrated in this chapter.
+## Required pathway information
 
-## Example one
-
-## Example two
+* Title
+* Organism

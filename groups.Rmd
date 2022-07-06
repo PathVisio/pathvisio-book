@@ -1,7 +1,12 @@
 # Groups
 
-Some _significant_ applications are demonstrated in this chapter.
 
-## Example one
+## Group types
 
-## Example two
+### Group
+### Transparent
+### Complex
+### Pathway
+### Analog
+### Paralog
+

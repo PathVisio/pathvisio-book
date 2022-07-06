@@ -7,4 +7,4 @@ library(knitr)
 
 # Why add information? 
 
-In the 
+

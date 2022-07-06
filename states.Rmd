@@ -1,7 +1,12 @@
 # States
 
-Some _significant_ applications are demonstrated in this chapter.
 
-## Example one
+## What is a State? 
 
-## Example two
+
+## State types 
+
+### Undefined
+### Protein Modification
+### Genetic Variant
+### Epigenetic Modification

@@ -1,7 +1,6 @@
 # Interactions
 
-Some _significant_ applications are demonstrated in this chapter.
 
-## Example one
+## Interaction Panel
 
-## Example two
+
