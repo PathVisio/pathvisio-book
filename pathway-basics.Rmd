@@ -7,6 +7,8 @@ library(knitr)
 
 # Pathway basics
 
+A pathway model is a graph diagram representing a biological process as a set of interactions and relationships among genes, proteins, metabolites, and other factors in the context of cellular compartments, tissues and organisms.
+
 ## Ten simple rules
 
 The [Ten simple rules for creating reusable pathway models for computational analysis and visualization](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009226) (Hanspers et al., 2021) paper provides guidelines for creating pathway models.    

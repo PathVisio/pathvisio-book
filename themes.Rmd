@@ -18,13 +18,19 @@ When the WikiPathways Theme is applied to a pathway model, data node graphics co
 Molecular data nodes are rectangles
 Concept data nodes are rounded rectangles (except for Alias data nodes)
 
+![](images/screenshots/data-nodes-theme.png){width=80%}
+
 ```{r fig.align="center", echo=FALSE, fig.cap = "default color(text, border, and fill) and shape of data nodes according to WikiPathways Theme"}
 knitr::include_graphics("images/screenshots/data-nodes-theme.png")
 ```
 
-### An Example
+## Applying a Theme
 
-In the figure below, we see a pathway [Hijack of ubiquitination by SARS-CoV-2 (Homo sapiens)](https://www.wikipathways.org/index.php/Pathway:WP4860#nogo2) for which the WikiPathways Theme was applied - before on the left, after on the right. 
+You can apply a theme from the menu bar Theme button or Tools > Apply Theme.
+
+![](images/gifs/apply-theme.gif){width=100%}
+
+In the figure below, we see the pathway [Hijack of ubiquitination by SARS-CoV-2 (Homo sapiens)](https://www.wikipathways.org/index.php/Pathway:WP4860#nogo2) for which the WikiPathways Theme was applied - before on the left, after on the right. 
 
 ```{r fig.align="center", echo=FALSE, fig.cap = "Pathway before (left) and after (right) WikiPathways Theme is applied"}
 knitr::include_graphics("images/pathways/theme-colored-pathways.png")

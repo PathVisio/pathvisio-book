@@ -1,24 +1,48 @@
 # Data Nodes
 
+A Data Node denotes a biological entity that forms a node in a pathway.
 
-## Data node types
+## Molecular DataNodes
 
-### Molecular 
+### GeneProduct
+An entity representing any product of a given gene, including DNA, RNA and Protein. This is the most generic representation of a gene-based biomolecule and is useful when more than one representation might be useful in the given context
 
-* GeneProduct
-* DNA
-* RNA
-* Protein
-* Complex
-* Metabolite
+### Metabolite
 
-### Concept
+An entity representing a metabolite, including chemical compounds that participate in or are produced by metabolic reactions, but also other chemical compounds that participate in a pathway otherwise.
 
-* Pathway
-* Disease
-* Phenotype
-* Alias
-* Event 
+### Protein
+A biomolecular polymer of amino acids, translated from mRNA.
 
-#### Alias
+### DNA
+An entity representing a DNA polymer. 
+
+### RNA
+An entity representing a RNA peptide, including mRNA, miRNA, etc. This is commonly used to explicitly represent mRNA transcripts (excluding DNA or protein forms) or other RNA species, like miRNA, exRNA, lncRNA, etc
+
+### Complex
+The Complex Data Node Type is deprecated. Its use was similar to that of [Alias](#alias).  
+
+
+
+## Concept DataNodes
+
+### Pathway
+A biological process representing a set of interactions and relationships among genes, proteins, metabolites, and other factors in the context of cellular compartments, tissues and organisms.
+
+### Disease
+
+### Phenotype
+
+### Alias 
+An Alias is a special type of Data Node which can represent a Group pathway element (or other entity). Please see [Aliases](#aliases) for more information.  
+
+### Event 
+
+### CellNode 
+
+### Organ 
+
+### Undefined
+An unspecified biological entity or factor. Should only be used if the type is truly unknown or is different from the ones covered by other data node types.
 

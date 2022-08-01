@@ -72,3 +72,6 @@ If desired, background color can be changed by
 1. Clicking on the Title/Organism information box in the upper left corner. 
 2. Then in Properties Tab, click on Background Color.
 
+![](images/gifs/color-background.gif)
+
+

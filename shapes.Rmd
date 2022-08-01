@@ -1,3 +1,5 @@
 # Shapes
 
+A shape is a visual annotation or graphical element.
+
 ## New Shapes! 

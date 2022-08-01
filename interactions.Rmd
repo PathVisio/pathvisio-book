@@ -1,6 +1,38 @@
 # Interactions
 
+An interaction represents the biological relation between entities. 
 
-## Interaction Panel
+An Xref can be specified for Interactions (in contrast to GraphicalLines).
+
+## Basic interactions
+
+### Directed
+### Undirected
+
+## Interactions
+
+### Conversion	 	
+mim-conversion; mim-modification; mim-cleavage; mim-gap; mim-branching-left; mim-branching-right
+### Inhibition	
+TBar	mim-inhibition
+### Catalysis	 	
+mim-catalysis
+### Stimulation	 	
+mim-stimulation; mim-necessary-stimulation
+### Binding	 	
+mim-binding; mim-covalent-bond
+### Translocation	 	
+mim-translocation
+### Transcription-translation 
+mim-transcription-translation
+
+## Adding an Anchor
+A connection point on a graphical line or an interaction, where another graphical line or interaction can be connected.
+
+### Adding Waypoints
+
+## Changing ConnectorType
+Specifies a set of rules to govern layout of lines, e.g. Straight (default), Elbow...
+
 
 

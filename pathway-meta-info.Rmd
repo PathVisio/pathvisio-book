@@ -4,3 +4,15 @@
 
 * Title
 * Organism
+
+## Optional pathway information
+
+* Description
+* Source
+* Version
+* License
+* Author
+* Comment
+* Database:Identifier
+
+

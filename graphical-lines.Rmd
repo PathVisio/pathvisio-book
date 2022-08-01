@@ -1,6 +1,8 @@
 # Graphical Lines
 
-Some _significant_ applications are demonstrated in this chapter.
+A graphical line is a visual annotation without semantic meaning. It is often used to partition space or connect other pathway elements. 
+
+An Xref cannot be specified for GraphicalLines (in contrast to Interactions).
 
 ## Example one
 

@@ -15,7 +15,12 @@ The current GPML version used is **GPML2021**.
 
 Please note that PathVisio 4.0.0 (which uses libGPML) works with GPML version 2021 and 2013a. When a pathway model written in GPML2013a is opened in PathVisio 4.x it will be ***automatically*** converted into GPML2021 when saved. 
 
-To save a pathway model as GPML2013a format, please export it as GPML2013a format. 
+```{r fig.align="center", echo=FALSE, fig.cap = "Warning message when opening an older GPML2013a file"}
+#TCA Cycle Pathway
+knitr::include_graphics("images/screenshots/gpml2013a-warning.png")
+```
+
+To save a pathway model as GPML2013a format, please export it as GPML2013a format: File > Export 
 
 ## PathVisio File Formats
 Default file format is GPML2021
@@ -34,5 +39,5 @@ Pathway models can be exported into the following other formats
 ## `r emoji("globe_with_meridians")` Resources
 
 * [Documentation for GPML](https://pathvisio.org/documentation/GPML)) 
-* 
+* ...
 * ...
