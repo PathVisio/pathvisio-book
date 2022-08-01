@@ -3,7 +3,6 @@
 #Load necessary libraries
 library(emojifont)
 library(knitr)
-library(gifski)
 ```
 
 # Make it pretty 
@@ -13,7 +12,7 @@ In this section we describe some of the options for customizing the visuals or g
 Pathway elements can be visually customized in a variety of ways!
 
 
-```{r fig.align="center", echo=FALSE}
+```{r fig.align="center", echo=FALSE, out.width="100%"}
 knitr::include_graphics("images/screenshots/colors.png")
 ```
 
@@ -36,7 +35,7 @@ Shape
 * Border Width: the thickness of the border
 * Fill Color
 
-```{r fig.align="center", echo=FALSE, fig.cap = "Properties tab when editing a shaped pathway element"}
+```{r fig.align="center", echo=FALSE, out.width="100%", fig.cap = "Properties tab when editing a shaped pathway element"}
 knitr::include_graphics("images/screenshots/shape-properties.png")
 ```
 
@@ -47,7 +46,7 @@ knitr::include_graphics("images/screenshots/shape-properties.png")
 * Connector Type: Straight, Curved, Elbowed, Segmented
 
 
-```{r fig.align="center", echo=FALSE, fig.cap = "Properties tab when editing a line pathway element"}
+```{r fig.align="center", echo=FALSE, out.width="100%", fig.cap = "Properties tab when editing a line pathway element"}
 knitr::include_graphics("images/screenshots/line-properties.png")
 ```
 
@@ -60,7 +59,7 @@ Text
 * Bold, Italic, Underline, Strikethrough
 
 * Note: groups have default color and shape depending on group type (see Groups section)
-```{r fig.align="center", echo=FALSE, fig.cap = "Group types"}
+```{r fig.align="center", echo=FALSE, out.width="100%", fig.cap = "Group types"}
 knitr::include_graphics("images/screenshots/group-types.png")
 ```
 
@@ -72,6 +71,6 @@ If desired, background color can be changed by
 1. Clicking on the Title/Organism information box in the upper left corner. 
 2. Then in Properties Tab, click on Background Color.
 
-![](images/gifs/color-background.gif)
+![](images/gifs/color-background.gif){width=100%}
 
 

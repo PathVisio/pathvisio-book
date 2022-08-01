@@ -1,6 +1,21 @@
+
+```{r, include=FALSE}
+#Load necessary libraries
+library(knitr)
+```
+
 # Data Nodes
 
 A Data Node denotes a biological entity that forms a node in a pathway.
+
+```{r fig.align="center", echo=FALSE, out.width="100%", fig.cap = "Object Panel Data Nodes"}
+knitr::include_graphics("images/screenshots/datanodes.png")
+```
+
+
+```{r fig.align="center", echo=FALSE, out.width="100%", fig.cap = "Molecular and Concept Data Nodes"}
+knitr::include_graphics("images/screenshots/data-nodes-theme.png")
+```
 
 ## Molecular DataNodes
 

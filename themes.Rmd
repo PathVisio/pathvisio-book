@@ -1,3 +1,9 @@
+
+```{r, include=FALSE}
+#Load necessary libraries
+library(knitr)
+```
+
 # Themes
 
 A theme is a predefined combination of colors and shapes (for data nodes). Themes can be applied to pathway models, allowing for a quick and easy way to change the look of your pathway model. 
@@ -18,9 +24,7 @@ When the WikiPathways Theme is applied to a pathway model, data node graphics co
 Molecular data nodes are rectangles
 Concept data nodes are rounded rectangles (except for Alias data nodes)
 
-![](images/screenshots/data-nodes-theme.png){width=80%}
-
-```{r fig.align="center", echo=FALSE, fig.cap = "default color(text, border, and fill) and shape of data nodes according to WikiPathways Theme"}
+```{r fig.align="center", echo=FALSE, out.width="100%", fig.cap = "default color(text, border, and fill) and shape of data nodes according to WikiPathways Theme"}
 knitr::include_graphics("images/screenshots/data-nodes-theme.png")
 ```
 

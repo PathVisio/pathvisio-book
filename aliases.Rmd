@@ -25,7 +25,7 @@ To link an Alias Data Node to a Group:
 1. Right-click and select "Link to Group..." 
 2. Click on to select the Group you wish to link the Alias DataNode
 
-\\
+<br/>
 
 To unlink an Alias Data Node from the Group it is currently linked to:
 

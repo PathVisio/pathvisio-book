@@ -1,9 +1,16 @@
+
+```{r, include=FALSE}
+#Load necessary libraries
+library(knitr)
+```
+
 # Groups
 
 A group is a collection of structurally or functionally similar or related pathway elements.
 
 ## Creating and Breaking groups 
 To create a group: 
+
 1. Select the pathway elements you would like to group
 2. Right click > Create Group
 3. Choose the Type of Group you would like to create
@@ -14,6 +21,10 @@ To break a group: Right click > Break group
 
 
 ## Group types
+
+```{r fig.align="center", echo=FALSE, out.width="100%", fig.cap = "Group types"}
+knitr::include_graphics("images/screenshots/group-types.png")
+```
 
 ### Group
 A Group is a group of related elements. It is the default group type. 

@@ -1,3 +1,9 @@
+
+```{r, include=FALSE}
+#Load necessary libraries
+library(knitr)
+```
+
 # Pathway element information
 
 ## Database and Identifier
