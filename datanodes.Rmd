@@ -8,16 +8,16 @@ library(knitr)
 
 A Data Node denotes a biological entity that forms a node in a pathway.
 
-```{r fig.align="center", echo=FALSE, out.width="100%", fig.cap = "Object Panel Data Nodes"}
+```{r fig.align="center", echo=FALSE, out.width="80%", fig.cap = "Object Panel options for Data Nodes"}
 knitr::include_graphics("images/screenshots/datanodes.png")
 ```
 
 
-```{r fig.align="center", echo=FALSE, out.width="100%", fig.cap = "Molecular and Concept Data Nodes"}
-knitr::include_graphics("images/screenshots/data-nodes-theme.png")
-```
-
 ## Molecular DataNodes
+
+```{r fig.align="center", echo=FALSE, out.width="100%", fig.cap = "Molecular Data Nodes"}
+knitr::include_graphics("images/screenshots/molecular-datanodes.png")
+```
 
 ### GeneProduct
 An entity representing any product of a given gene, including DNA, RNA and Protein. This is the most generic representation of a gene-based biomolecule and is useful when more than one representation might be useful in the given context
@@ -42,6 +42,10 @@ The Complex Data Node Type is deprecated. Its use was similar to that of [Alias]
 
 ## Concept DataNodes
 
+```{r fig.align="center", echo=FALSE, out.width="100%", fig.cap = "Concept Data Nodes"}
+knitr::include_graphics("images/screenshots/concept-datanodes.png")
+```
+
 ### Pathway
 A biological process representing a set of interactions and relationships among genes, proteins, metabolites, and other factors in the context of cellular compartments, tissues and organisms.
 
@@ -50,7 +54,7 @@ A biological process representing a set of interactions and relationships among 
 ### Phenotype
 
 ### Alias 
-An Alias is a special type of Data Node which can represent a Group pathway element (or other entity). Please see [Aliases](#aliases) for more information.  
+An Alias is a special type of Data Node which can represent a Group pathway element (or other entity). Please see [Aliases](#aliases) for more information!
 
 ### Event 
 

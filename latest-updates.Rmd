@@ -9,3 +9,14 @@ library(knitr)
 # Latest updates {#latest-updates -}
 
 `r emoji("sparkles")` Here we publish news about the latest updates to PathVisio. 
+
+
+
+## Annotations, Citations, and Evidences replace Biopax (September 1, 2022) 
+
+
+## New Shapes (September 1, 2022) 
+
+
+## Deprecated features (September 1, 2022) 
+

@@ -15,12 +15,12 @@ The main components of a pathway model are referred to as **Pathway Elements**.
 knitr::include_graphics("images/figures/pathway-parts.png")
 ```
 
-* [DataNodes](datanodes.md): denotes a biological entity that forms a node in a pathway.
-  * [Aliases](aliases.Rmd): special data node type.
-* [States](states.md): represents a specific state of the biological entity (e.g. phosphorylation, genetic variants, etc). A state is linked to a data node.
-* [Interactions](interactions.md): represents the biological relation between entities. 
-* [Graphical Lines](graphical-lines.md): a visual annotation without semantic meaning. It is often used to partition space or connect other pathway elements. 
-* [Labels](labels.md): a text field which can be used to annotate any aspect of a pathway
-* [Shapes](shapes.md): a visual annotation or graphical element.
-* [Groups](groups.md): a collection of structurally or functionally similar or related pathway elements.
+* [DataNodes](datanodes.md) - denotes a biological entity that forms a node in a pathway.
+  * [Aliases](aliases.Rmd) - special data node type.
+* [States](states.md) - represents a specific state of the biological entity (e.g. phosphorylation, genetic variants, etc). A state is linked to a data node.
+* [Interactions](interactions.md) - represents the biological relation between entities. 
+* [Graphical Lines](graphical-lines.md) - a visual annotation without semantic meaning. It is often used to partition space or connect other pathway elements. 
+* [Labels](labels.md) - a text field which can be used to annotate any aspect of a pathway
+* [Shapes](shapes.md) - a visual annotation or graphical element.
+* [Groups](groups.md) - a collection of structurally or functionally similar or related pathway elements.
 
