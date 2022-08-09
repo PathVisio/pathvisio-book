@@ -4,6 +4,10 @@ An interaction represents the biological relation between entities.
 
 An Xref can be specified for Interactions (in contrast to GraphicalLines).
 
+```{r fig.align="center", echo=FALSE, out.width="70%", fig.cap = "Object Panel options for Interactions"}
+knitr::include_graphics("images/screenshots/interactions.png")
+```
+
 ## Basic interactions
 
 ### Directed      ![](images/figures/lines/directed.png){width=100}

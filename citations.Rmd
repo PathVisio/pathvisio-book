@@ -7,7 +7,49 @@ library(knitr)
 # Citations
 
 
-## Introduction
+## DataSources 
+
+- DOI 
+- ISBN
+- ISSN 
+- PubMed
+
+## Nested Annotations (Advanced)
+
+A Citation can contain nested Annotations which are related to or support the current Citation. As of now, PathVisio4 does not have a user interface to support nested References. Advanced users may added nested Annotations *manually* by editing the GPML2021 file in a text editor. 
+
+To add a nested Annotation to the Citation of a Pathway Element, you must do the following:   
+
+1. Add a nested AnnotationRef with elementRef pointing to the elementId of the Annotation. 
+
+    <CitationRef elementRef="c0001">
+        <AnnotationRef elementRef="a0002" />
+    </CitationRef>
+
+
+2. The Annotation and all its information should be at the end of the GPML, this may also need to be added manually if this Annotation is not already referenced elsewhere in your pathway.
+    
++
+    <Annotations>
+        </Annotation>
+            <Annotation elementId="a0002" name="thyroid cancer" type="Disease">
+            <Xref identifier="1781" dataSource="DOID"/>
+    	<Url link="https://identifiers.org/DOID:1781"/>
+        </Annotation>
+    </Annotations>
+    <Citations>
+        <Citation elementId="c0001">
+            <Xref identifier="7730304" dataSource="pubmed"/>
+            <Url link="https://identifiers.org/pubmed:7730304"/>
+        </Citation>
+        ...
+    </Citations>
+
+
+
+
+
+
 
 
 

@@ -6,14 +6,11 @@ library(knitr)
 
 # Data Nodes
 
+A Data Node denotes a biological entity that forms a node in a pathway. We have two categories of Data Node Types: Molecular DataNodes and Concept DataNodes.
+
 ```{r fig.align="center", echo=FALSE, out.width="70%", fig.cap = "Object Panel options for Data Nodes"}
 knitr::include_graphics("images/screenshots/datanodes.png")
 ```
-
-A Data Node denotes a biological entity that forms a node in a pathway. We have two categories of Data Node Types: 
-
-1. Molecular DataNodes 
-2. Concept DataNodes
 
 ## Molecular DataNodes
 
@@ -42,19 +39,19 @@ The Complex Data Node Type is deprecated. Its use was similar to that of [Alias]
 ### Pathway      ![](images/figures/datanodes/pathway.PNG){width=300}
 A biological process representing a set of interactions and relationships among genes, proteins, metabolites, and other factors in the context of cellular compartments, tissues and organisms.
 
-### Disease      ![](images/figures/datanodes/rna.PNG){width=300}
+### Disease      ![](images/figures/datanodes/disease.PNG){width=300}
 
-### Phenotype      ![](images/figures/datanodes/rna.PNG){width=300}
+### Phenotype      ![](images/figures/datanodes/phenotype.PNG){width=300}
 
-### Alias       ![](images/figures/datanodes/rna.PNG){width=300}
+### Alias       ![](images/figures/datanodes/alias.PNG){width=300}
 An Alias is a special type of Data Node which can represent a Group pathway element (or other entity). Please see [Aliases](#aliases) for more information!
 
-### Event      ![](images/figures/datanodes/rna.PNG){width=300}
+### Event      ![](images/figures/datanodes/event.PNG){width=300}
 
-### CellNode      ![](images/figures/datanodes/rna.PNG){width=300} 
+### CellNode      ![](images/figures/datanodes/cellnode.PNG){width=300} 
 
-### Organ      ![](images/figures/datanodes/rna.PNG){width=300} 
+### Organ      ![](images/figures/datanodes/organ.PNG){width=300} 
 
-### Undefined      ![](images/figures/datanodes/rna.PNG){width=300}
+### Undefined      ![](images/figures/datanodes/undefined.PNG){width=300}
 An unspecified biological entity or factor. Should only be used if the type is truly unknown or is different from the ones covered by other data node types.
 

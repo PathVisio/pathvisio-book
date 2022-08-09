@@ -8,7 +8,7 @@ library(knitr)
 An Alias is a special [type of Data Node](datanodes.md#concept-datanodes) which can represent a [Group](groups.md) pathway element (or other entity). An Alias Data Node can be linked to an existing Group.
 
 ## Adding an Alias
-Alias Data Nodes can be [added from an existing Group](#adding-and-deleting-an-alias-from-a-group) (linked) or [using the Objects Panel](#linking-and-unlinking-an-alias-to-a-group) (link later). 
+Alias Data Nodes can be [added from an existing Group](#adding-and-deleting-an-alias-from-a-group) (linked to the selected group) or [using the Objects Panel](#linking-and-unlinking-an-alias-to-a-group) (link to a group later). 
 
 ## Adding and Deleting an Alias from a Group 
 ### To Add an Alias for an existing Group:

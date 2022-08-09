@@ -1,15 +1,35 @@
+
+```{r, include=FALSE}
+#Load necessary libraries
+library(knitr)
+```
+
 # Shapes
 
 A shape is a visual annotation or graphical element.
 
+```{r fig.align="center", echo=FALSE, out.width="70%"}
+knitr::include_graphics("images/screenshots/shapes.png")
+```
+
+<style>
+    pre {
+        border: 0;
+    }
+</style>
+
 ## Basic Shapes
-
-
-## Line Shapes
+```{r fig.align="center", echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/figures/shapes/basic_shapes.png")
+```
 
 
 ## Cellular Compartments
-
+```{r fig.align="center", echo=FALSE, out.width="100%"}
+knitr::include_graphics("images/figures/shapes/cellular_shapes.png")
+```
 
 ## Miscellaneous Shapes
-
+```{r fig.align="center", echo=FALSE, out.width="90%"}
+knitr::include_graphics("images/figures/shapes/misc_shapes.png")
+```
