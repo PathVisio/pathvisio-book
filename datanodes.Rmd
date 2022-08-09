@@ -6,62 +6,55 @@ library(knitr)
 
 # Data Nodes
 
-A Data Node denotes a biological entity that forms a node in a pathway.
-
-```{r fig.align="center", echo=FALSE, out.width="80%", fig.cap = "Object Panel options for Data Nodes"}
+```{r fig.align="center", echo=FALSE, out.width="70%", fig.cap = "Object Panel options for Data Nodes"}
 knitr::include_graphics("images/screenshots/datanodes.png")
 ```
 
+A Data Node denotes a biological entity that forms a node in a pathway. We have two categories of Data Node Types: 
+
+1. Molecular DataNodes 
+2. Concept DataNodes
 
 ## Molecular DataNodes
 
-```{r fig.align="center", echo=FALSE, out.width="100%", fig.cap = "Molecular Data Nodes"}
-knitr::include_graphics("images/screenshots/molecular-datanodes.png")
-```
-
-### GeneProduct
+### GeneProduct      ![](images/figures/datanodes/geneproduct.PNG){width=300}
 An entity representing any product of a given gene, including DNA, RNA and Protein. This is the most generic representation of a gene-based biomolecule and is useful when more than one representation might be useful in the given context
 
-### Metabolite
-
+### Metabolite      ![](images/figures/datanodes/metabolite.PNG){width=300}
 An entity representing a metabolite, including chemical compounds that participate in or are produced by metabolic reactions, but also other chemical compounds that participate in a pathway otherwise.
 
-### Protein
+### Protein      ![](images/figures/datanodes/protein.PNG){width=300}
 A biomolecular polymer of amino acids, translated from mRNA.
 
-### DNA
+### DNA      ![](images/figures/datanodes/dna.PNG){width=300}
 An entity representing a DNA polymer. 
 
-### RNA
+### RNA      ![](images/figures/datanodes/rna.PNG){width=300}
 An entity representing a RNA peptide, including mRNA, miRNA, etc. This is commonly used to explicitly represent mRNA transcripts (excluding DNA or protein forms) or other RNA species, like miRNA, exRNA, lncRNA, etc
 
-### Complex
+### Complex (deprecated)
 The Complex Data Node Type is deprecated. Its use was similar to that of [Alias](#alias).  
 
 
 
 ## Concept DataNodes
 
-```{r fig.align="center", echo=FALSE, out.width="100%", fig.cap = "Concept Data Nodes"}
-knitr::include_graphics("images/screenshots/concept-datanodes.png")
-```
-
-### Pathway
+### Pathway      ![](images/figures/datanodes/pathway.PNG){width=300}
 A biological process representing a set of interactions and relationships among genes, proteins, metabolites, and other factors in the context of cellular compartments, tissues and organisms.
 
-### Disease
+### Disease      ![](images/figures/datanodes/rna.PNG){width=300}
 
-### Phenotype
+### Phenotype      ![](images/figures/datanodes/rna.PNG){width=300}
 
-### Alias 
+### Alias       ![](images/figures/datanodes/rna.PNG){width=300}
 An Alias is a special type of Data Node which can represent a Group pathway element (or other entity). Please see [Aliases](#aliases) for more information!
 
-### Event 
+### Event      ![](images/figures/datanodes/rna.PNG){width=300}
 
-### CellNode 
+### CellNode      ![](images/figures/datanodes/rna.PNG){width=300} 
 
-### Organ 
+### Organ      ![](images/figures/datanodes/rna.PNG){width=300} 
 
-### Undefined
+### Undefined      ![](images/figures/datanodes/rna.PNG){width=300}
 An unspecified biological entity or factor. Should only be used if the type is truly unknown or is different from the ones covered by other data node types.
 

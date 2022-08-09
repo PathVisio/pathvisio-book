@@ -24,7 +24,6 @@ Please note that there are several [State types](#state-types) which you may add
 ![](images/gifs/add-remove-state.gif){width=100%}
 
 ## State types 
-
 ### Protein Modification
 ### Genetic Variant
 ### Epigenetic Modification

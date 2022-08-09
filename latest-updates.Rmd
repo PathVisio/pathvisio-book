@@ -12,11 +12,11 @@ library(knitr)
 
 
 
-## Annotations, Citations, and Evidences replace Biopax (September 1, 2022) 
+## Annotations, Citations, and Evidences replace Biopax - Sept 1, 2022 {-} 
 
 
-## New Shapes (September 1, 2022) 
+## New Shapes - Sept 1, 2022 {-} 
 
 
-## Deprecated features (September 1, 2022) 
+## Deprecated features - Sept 1, 2022 {-} 
 

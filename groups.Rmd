@@ -17,31 +17,27 @@ To create a group:
 
 To break a group: Right click > Break group
 
-![](images/gifs/create-break-complex.gif){width=100%}
+![](images/gifs/create-break-complex.gif){width=300}
 
 
 ## Group types
 
-```{r fig.align="center", echo=FALSE, out.width="100%", fig.cap = "Group types"}
-knitr::include_graphics("images/screenshots/group-types.png")
-```
-
-### Group
+### Group ![](images/figures/groups/group.PNG){width=300}
 A Group is a group of related elements. It is the default group type. 
 
-### Transparent
+### Transparent ![](images/figures/groups/transparent.PNG){width=300}
 A Transparent group is a group of related elements. It is similar to the default group type, however its visual/graphics style is transparent. 
 
-### Complex
+### Complex ![](images/figures/groups/complex.PNG){width=300}
 A Complex is a group of proteins and cofactors forming a protein complex. 
 
-### Pathway
+### Pathway ![](images/figures/groups/pathway.PNG){width=300}
 A Pathway in the context of Group Type is a group elements of a pathway
 
-### Analog
+### Analog ![](images/figures/groups/group.PNG){width=300}
 An Analog is a group of genes or metabolites with similar function.
 
-### Paralog
+### Paralog ![](images/figures/groups/group.PNG){width=300}
 A Paralog is a group of related genes in the same species
 			
 ## Add an Alias 

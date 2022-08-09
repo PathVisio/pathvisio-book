@@ -6,25 +6,33 @@ An Xref can be specified for Interactions (in contrast to GraphicalLines).
 
 ## Basic interactions
 
-### Directed
-### Undirected
+### Directed      ![](images/figures/lines/directed.png){width=100}
 
-## Interactions
+### Undirected      ![](images/figures/lines/undirected.png){width=100}
 
-### Conversion	 	
+## Interactions (Recommended)
+
+### Conversion      ![](images/figures/lines/conversion.png){width=100}	 	
 mim-conversion; mim-modification; mim-cleavage; mim-gap; mim-branching-left; mim-branching-right
-### Inhibition	
+
+### Inhibition      ![](images/figures/lines/inhibition.png){width=100}
 TBar	mim-inhibition
-### Catalysis	 	
+
+### Catalysis      ![](images/figures/lines/catalysis.png){width=100}
 mim-catalysis
-### Stimulation	 	
+
+### Stimulation      ![](images/figures/lines/stimulation.png){width=100}	 	
 mim-stimulation; mim-necessary-stimulation
-### Binding	 	
+
+### Binding      ![](images/figures/lines/binding.png){width=100}		 	
 mim-binding; mim-covalent-bond
-### Translocation	 	
+
+### Translocation      ![](images/figures/lines/translocation.png){width=100}		 	
 mim-translocation
-### Transcription-translation 
+
+### Transcription-translation      ![](images/figures/lines/transcription-translation.png){width=100}	
 mim-transcription-translation
+
 
 ## Adding an Anchor
 A connection point on a graphical line or an interaction, where another graphical line or interaction can be connected.
