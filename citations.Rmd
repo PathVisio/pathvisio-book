@@ -1,11 +1,13 @@
 
 ```{r, include=FALSE}
 #Load necessary libraries
+library(emojifont)
 library(knitr)
 ```
 
 # Citations
 
+A Citation is a reference to a source of information (book, paper, or author, especially in a scholarly work).
 
 ## DataSources 
 
@@ -13,6 +15,16 @@ library(knitr)
 - ISBN
 - ISSN 
 - PubMed
+
+
+## Adding a Citation
+
+1. Right click Pathway Element
+2. Double click on Pathway Element 
+
+
+3. 
+
 
 ## Nested Annotations (Advanced)
 
@@ -29,7 +41,6 @@ To add a nested Annotation to the Citation of a Pathway Element, you must do the
 
 2. The Annotation and all its information should be at the end of the GPML, this may also need to be added manually if this Annotation is not already referenced elsewhere in your pathway.
     
-+
     <Annotations>
         </Annotation>
             <Annotation elementId="a0002" name="thyroid cancer" type="Disease">
@@ -45,6 +56,9 @@ To add a nested Annotation to the Citation of a Pathway Element, you must do the
         ...
     </Citations>
 
+
+## `r emoji("globe_with_meridians")` Related Links and Resources
+To learn more about Annotation, Citations, and Evidences in GPML, see [GPML documentation](https://pathvisio.org/documentation/Whats-New-GPML2021.html#streamlined-annotations-citations-and-evidences)
 
 
 
