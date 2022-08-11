@@ -21,10 +21,10 @@ AND/OR
 
 ## Databases/DataSources  
 
-- DOI 
-- ISBN
-- ISSN 
-- PubMed
+- DOI - Digital Object Identifier is a way to identify content objects on the internet, [info here](https://www.doi.org/)
+- ISBN -  International Standard Book Number is a numeric commercial book identifier, [info here](https://isbnsearch.org/)
+- ISSN - International Identifier for serials and other continuing resources, in the electronic and print world, [info here](https://www.issn.org/) 
+- PubMed - database of references and abstracts on life sciences and biomedical topics, [info here](https://pubmed.ncbi.nlm.nih.gov/)
 
 
 ## Adding a Citation
