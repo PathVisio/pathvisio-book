@@ -6,9 +6,6 @@ library(knitr)
 
 # States
 
-
-## What is a state? 
-
 A state represents a specific state of the biological entity (e.g. phosphorylation, genetic variants, etc). A state is linked to a data node.
 
 ## Creating or Adding a state 
