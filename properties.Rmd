@@ -52,8 +52,6 @@ N/A
 * Group type (required) 
 * Identifier and Database
 
-# Pathway element information
-
 ## Identifier and Database
 In GPML, Identifier and Database/DataSource information is stored in the Xref element. An Xref is a a reference from an instance of a class in this ontology to an object in an external resource. 
 
