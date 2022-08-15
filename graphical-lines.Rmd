@@ -2,8 +2,5 @@
 
 A graphical line is a visual annotation without semantic meaning. It is often used to partition space or connect other pathway elements. 
 
-An Xref cannot be specified for GraphicalLines (in contrast to Interactions).
+An Identifier and Database information (Xref) cannot be specified for GraphicalLines (in contrast to Interactions).
 
-## Example one
-
-## Example two

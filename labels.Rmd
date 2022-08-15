@@ -2,6 +2,3 @@
 
 A label is a text field which can be used to annotate any aspect of a pathway.
 
-## When to add a Label: Label vs. Text label
-
-It is recommended to label 

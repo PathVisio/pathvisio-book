@@ -19,7 +19,7 @@ For the Pathway and Pathway Elements, you can edit the Properties. Properties ca
 * Organism (required)
 * Description
 * Identifier and Database
-* Also see [meta-information](pathway-meta-info.Rmd)
+* Also see [meta-information](pathway-meta-info.md)
 
 ## DataNode
 * Text label (required)
@@ -80,7 +80,7 @@ To add Identifier and Database information:
 ### Adding Identifier and Database using Search (DataNode)
 To add Identifier and Database information by Search: 
 
-1. Load Identifier Mapping Database, if not done so already, instruction [here](load-identifier-mapping.Rmd)
+1. Load Identifier Mapping Database, if not done so already, instruction [here](load-identifier-mapping.md)
 2. Navigate to the Properties Tab of the Pathway Element.
 4. Enter an Identifier or Name and click Search.
 5. Select desired item from search Results, this will automatically populate the fields. 

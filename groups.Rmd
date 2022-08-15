@@ -41,6 +41,8 @@ An Analog is a group of genes or metabolites with similar function.
 A Paralog is a group of related genes in the same species
 			
 ## Add an Alias 
-To reference a Group, it is possible to add one or more Alias Data Nodes. An Alias is a special type of Data Node which can represent a Group (or other entity). Please see [Aliases](#aliases) for more information.  
+To reference a Group, it is possible to add one or more Alias Data Nodes. An Alias is a special type of Data Node which can represent a Group (or other entity). 
+
+Please see [Aliases](#aliases) for more information.  
 
 
