@@ -4,7 +4,7 @@ unlink('_book', recursive = TRUE)
 
 x = readLines('index.Rmd')
 i = 1
-s = paste0('title: "PathVisio Book (', c('Bootstrap', 'Tufte'), ' Style)"')
+s = paste0('title: "A Minimal Book Example (', c('Bootstrap', 'Tufte'), ' Style)"')
 for (fmt in c('html_book', 'tufte_html_book')) {
   unlink('_book', recursive = TRUE)
   file.copy('index.Rmd', '_index.Rmd')
@@ -13,7 +13,7 @@ for (fmt in c('html_book', 'tufte_html_book')) {
     gsub('^title: ".*"', s[i], gsub('gitbook', fmt, x)), 'index.Rmd'
   )
   cat(
-    'bookdown::', fmt, ':\n', '  css: [assets/style.css, assets/toc.css]\n', sep = '', file = '_output.yml',
+    'bookdown::', fmt, ':\n', '  css: [style.css, toc.css]\n', sep = '', file = '_output.yml',
     append = TRUE
   )
   cmd = sprintf("bookdown::render_book('index.Rmd', 'bookdown::%s', quiet = TRUE)", fmt)

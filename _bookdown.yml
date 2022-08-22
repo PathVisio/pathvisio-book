@@ -33,7 +33,7 @@ rmd_files:
     "why-add-info.Rmd",
     "pathway-meta-info.Rmd",
     "properties.Rmd",
-    "load-identifier-mapping.Rmd",
+    "load-identifier-mapping-database.Rmd",
     "annotations.Rmd",
     "citations.Rmd",
     "evidences.Rmd",
