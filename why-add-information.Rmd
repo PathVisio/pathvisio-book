@@ -23,19 +23,19 @@ In general machine readable information about the pathway or its pathway element
 To the pathway, we can add: 
 
 * Comments - descriptions or arbitrary notes for an object
-* [Annotations](annotations.md)
-* [Citations](citations.md)
-* [Evidences](evidences.md)
-* [Properties](properties.md)/[Pathway meta-information](pathway-meta-info.Rmd) - e.g. title, authors, etc. 
+* [Annotations](annotations.html)
+* [Citations](citations.html)
+* [Evidences](evidences.html)
+* [Properties](properties.html)/[Pathway meta-information](pathway-meta-info.Rmd) - e.g. title, authors, etc. 
 
 ## Pathway element information 
 To Pathway Elements we can add: 
 
 * Comments - descriptions or arbitrary notes for an object
-* [Annotations](annotations.md)
-* [Citations](citations.md)
-* [Evidences](evidences.md)
-* [Properties](properties.md)
+* [Annotations](annotations.html)
+* [Citations](citations.html)
+* [Evidences](evidences.html)
+* [Properties](properties.html)
 
 
 

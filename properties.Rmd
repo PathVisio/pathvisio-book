@@ -19,7 +19,7 @@ For the Pathway and Pathway Elements, you can edit the Properties. Properties ca
 * Organism (required)
 * Description
 * Identifier and Database
-* Also see [meta-information](pathway-meta-info.md)
+* Also see [meta-information](pathway-meta-information.html)
 
 ## DataNode
 * Text label (required)
