@@ -72,8 +72,8 @@ The source code for this book is hosted on GitHub, at <https://github.com/>. Any
 
 ## 🙌 Acknowledgements {-} 
 
-**Core developers:** Martina Kutmon, Finterly Hu, Nuno Nunes, Alexander Pico, Egon Willighagen, Denise Slenter, Kristina Hanspers    
+**Core developers:** Martina Kutmon, Finterly Hu, Alexander Pico, Egon Willighagen, Kristina Hanspers, Denise Slenter
 
-**Former developers:** Andra Waagmeester, Anwesha Bohler, Jonathan Melius, Martijn van Iersel, Thomas Kelder 
+**Former developers:** Andra Waagmeester, Anwesha Bohler, Jonathan Melius, Martijn van Iersel, Thomas Kelder, Nuno Nunes
 
-**Contributors:** Adem Bilicna, Augustin Luna, Bing Liu, Christ Leemans, Eric Creussen, Erik Pelgrin, Esterh Neuteboom, Ferry Jagers, Hakim Achterberg, Harm Nijveen, Irene Kaashoek, Justin Elser, Kumar Chanden, Lars Willighagen, Margot Sunshine, Mark Woon, Margiet Palm, Pim Moeskops, Praveen Kumar, Rene Besseling, Rianne Fijten, Sjoerd Crijns, Sravanthi Sinha, Stefan van Helden 
+**Contributors:** Adem Bilicna, Augustin Luna, Bing Liu, Christ Leemans, Eric Creussen, Erik Pelgrin, Esterh Neuteboom, Ferry Jagers, Hakim Achterberg, Harm Nijveen, Irene Kaashoek, Justin Elser, Kumar Chanden, Lars Willighagen, Margot Sunshine, Mark Woon, Margiet Palm, Pim Moeskops, Praveen Kumar, Rene Besseling, Rianne Fijten, Sjoerd Crijns, Sravanthi Sinha, Stefan van Helden
