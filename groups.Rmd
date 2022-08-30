@@ -17,7 +17,7 @@ To create a group:
 
 To break a group: Right click > Break group
 
-![](images/gifs/create-break-complex.gif){width=300}
+![](images/gifs/create-break-complex.gif){width=100%}
 
 
 ## Group types
