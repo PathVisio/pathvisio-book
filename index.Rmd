@@ -10,17 +10,11 @@ cover-image: images/logos/pathvisio-logo-transparent.png
 github-repo: PathVisio/pathvisio-book-generation
 description: "Guide book for PathVisio."
 ---
-```{r index-1, echo=FALSE}
-is_on_ghactions = identical(Sys.getenv("GITHUB_ACTIONS"), "true")
-is_online = curl::has_internet()
-is_html = knitr::is_html_output()
-```
 
 ```{r, include=FALSE}
 #Load necessary libraries
 library(emojifont)
 library(knitr)
-
 ```
 
 # Welcome {-} 
