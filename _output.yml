@@ -1,5 +1,5 @@
 bookdown::bs4_book:
-  repo: https://github.com/Finterly/pathvisio-book/
+  repo: https://github.com/PathVisio/pathvisio-book/
   template: template.html
   css: assets/style.css
   config:
