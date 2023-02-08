@@ -10,8 +10,4 @@ bookdown::bs4_book:
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
     download: ["rmd"]
-    
-bookdown::bs4_book:
-
-  includes:
-    in_header: _includes/analytics.html
+   
