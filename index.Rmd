@@ -7,7 +7,7 @@ site: bookdown::bookdown_site
 output: bookdown::bs4_book
 documentclass: book
 cover-image: images/logos/pathvisio-logo-transparent.png
-github-repo: PathVisio/pathvisio-book-generation
+github-repo: PathVisio/pathvisio-book
 description: "Guide book for PathVisio."
 ---
 
