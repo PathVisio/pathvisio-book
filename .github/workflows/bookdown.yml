@@ -28,6 +28,9 @@ jobs:
         with:
           extra-packages: any::XML
           
+      - name: Install rmarkdown, bookdown
+        run: Rscript -e 'install.packages(c("rmarkdown","bookdown"))'
+    
       - name: Build site
         run: Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
 
