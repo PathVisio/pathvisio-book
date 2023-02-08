@@ -2,8 +2,10 @@
 title: "PathVisio Book"
 author: "Finterly Hu"
 date: "`r Sys.Date()`"
+knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 output: bookdown::bs4_book
+documentclass: book
 cover-image: images/logos/pathvisio-logo-transparent.png
 github-repo: PathVisio/pathvisio-book-generation
 description: "Guide book for PathVisio."
