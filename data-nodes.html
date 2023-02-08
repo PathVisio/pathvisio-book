@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>8 Data Nodes | PathVisio Book</title>
+<meta name="author" content="Finterly Hu">
+<meta name="description" content="A Data Node denotes a biological entity that forms a node in a pathway. We have two categories of Data Node Types: Molecular DataNodes and Concept DataNodes.  Figure 0.1: Object Panel options for...">
+<meta name="generator" content="bookdown 0.32.1 with bs4_book()">
+<meta property="og:title" content="8 Data Nodes | PathVisio Book">
+<meta property="og:type" content="book">
+<meta property="og:image" content="/images/logos/pathvisio-logo-transparent.png">
+<meta property="og:description" content="A Data Node denotes a biological entity that forms a node in a pathway. We have two categories of Data Node Types: Molecular DataNodes and Concept DataNodes.  Figure 0.1: Object Panel options for...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="8 Data Nodes | PathVisio Book">
+<meta name="twitter:description" content="A Data Node denotes a biological entity that forms a node in a pathway. We have two categories of Data Node Types: Molecular DataNodes and Concept DataNodes.  Figure 0.1: Object Panel options for...">
+<meta name="twitter:image" content="/images/logos/pathvisio-logo-transparent.png">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.2/transition.js"></script><script src="libs/bs3compat-0.4.2/tabs.js"></script><script src="libs/bs3compat-0.4.2/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-2 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <a href="https://pathvisio.org/pathvisio-book/"><img id="cover" class="mx-auto d-none d-lg-block" src="images/logos/pathvisio-book-logo.png" width="145px"></a>
+      <h1 class="d-lg-none">
+        <a href="index.html" title="">PathVisio Book</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <a href="https://pathvisio.org/">PathVisio Home 🏠</a>
+    <br><div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Welcome</a></li>
+<li><a class="" href="latest-updates.html">Latest updates</a></li>
+<li class="book-part">Getting started</li>
+<li><a class="" href="installation.html"><span class="header-section-number">1</span> Installation</a></li>
+<li><a class="" href="pathway-basics.html"><span class="header-section-number">2</span> Pathway basics</a></li>
+<li><a class="" href="drawing-a-pathway-model.html"><span class="header-section-number">3</span> Drawing a pathway model</a></li>
+<li><a class="" href="saving-a-pathway-model.html"><span class="header-section-number">4</span> Saving a pathway model</a></li>
+<li><a class="" href="sharing-a-pathway-model.html"><span class="header-section-number">5</span> Sharing a pathway model</a></li>
+<li><a class="" href="tutorials.html"><span class="header-section-number">6</span> Tutorials</a></li>
+<li class="book-part">Pathway model components</li>
+<li><a class="" href="pathway-elements.html"><span class="header-section-number">7</span> Pathway elements</a></li>
+<li><a class="active" href="data-nodes.html"><span class="header-section-number">8</span> Data Nodes</a></li>
+<li><a class="" href="aliases.html"><span class="header-section-number">9</span> Aliases</a></li>
+<li><a class="" href="states.html"><span class="header-section-number">10</span> States</a></li>
+<li><a class="" href="interactions.html"><span class="header-section-number">11</span> Interactions</a></li>
+<li><a class="" href="graphical-lines.html"><span class="header-section-number">12</span> Graphical Lines</a></li>
+<li><a class="" href="labels.html"><span class="header-section-number">13</span> Labels</a></li>
+<li><a class="" href="shapes.html"><span class="header-section-number">14</span> Shapes</a></li>
+<li><a class="" href="groups.html"><span class="header-section-number">15</span> Groups</a></li>
+<li class="book-part">Pathway model information</li>
+<li><a class="" href="why-add-information.html"><span class="header-section-number">16</span> Why add information?</a></li>
+<li><a class="" href="pathway-meta-information.html"><span class="header-section-number">17</span> Pathway meta information</a></li>
+<li><a class="" href="properties.html"><span class="header-section-number">18</span> Properties</a></li>
+<li><a class="" href="load-identifier-mapping-database.html"><span class="header-section-number">19</span> Load Identifier Mapping Database</a></li>
+<li><a class="" href="annotations.html"><span class="header-section-number">20</span> Annotations</a></li>
+<li><a class="" href="citations.html"><span class="header-section-number">21</span> Citations</a></li>
+<li><a class="" href="evidences.html"><span class="header-section-number">22</span> Evidences</a></li>
+<li class="book-part">Styles</li>
+<li><a class="" href="make-it-pretty.html"><span class="header-section-number">23</span> Make it pretty</a></li>
+<li><a class="" href="themes.html"><span class="header-section-number">24</span> Themes</a></li>
+<li><a class="" href="color-palettes.html"><span class="header-section-number">25</span> Color palettes</a></li>
+<li class="book-part">Plugins</li>
+<li><a class="" href="plugins-intro.html"><span class="header-section-number">26</span> Available plugins</a></li>
+</ul>
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/Finterly/pathvisio-book/">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="data-nodes" class="section level1" number="8">
+<h1>
+<span class="header-section-number">8</span> Data Nodes<a class="anchor" aria-label="anchor" href="#data-nodes"><i class="fas fa-link"></i></a>
+</h1>
+<p>A Data Node denotes a biological entity that forms a node in a pathway. We have two categories of Data Node Types: Molecular DataNodes and Concept DataNodes.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:unnamed-chunk-2"></span>
+<img src="images/screenshots/datanodes.png" alt="Object Panel options for Data Nodes" width="70%"><p class="caption">
+Figure 0.1: Object Panel options for Data Nodes
+</p>
+</div>
+<div id="molecular-datanodes" class="section level2" number="8.1">
+<h2>
+<span class="header-section-number">8.1</span> Molecular DataNodes<a class="anchor" aria-label="anchor" href="#molecular-datanodes"><i class="fas fa-link"></i></a>
+</h2>
+<div id="geneproduct" class="section level3" number="8.1.1">
+<h3>
+<span class="header-section-number">8.1.1</span> GeneProduct <img src="images/figures/datanodes/geneproduct.PNG" width="300"><a class="anchor" aria-label="anchor" href="#geneproduct"><i class="fas fa-link"></i></a>
+</h3>
+<p>An entity representing any product of a given gene, including DNA, RNA and Protein. This is the most generic representation of a gene-based biomolecule and is useful when more than one representation might be useful in the given context</p>
+</div>
+<div id="metabolite" class="section level3" number="8.1.2">
+<h3>
+<span class="header-section-number">8.1.2</span> Metabolite <img src="images/figures/datanodes/metabolite.PNG" width="300"><a class="anchor" aria-label="anchor" href="#metabolite"><i class="fas fa-link"></i></a>
+</h3>
+<p>An entity representing a metabolite, including chemical compounds that participate in or are produced by metabolic reactions, but also other chemical compounds that participate in a pathway otherwise.</p>
+</div>
+<div id="protein" class="section level3" number="8.1.3">
+<h3>
+<span class="header-section-number">8.1.3</span> Protein <img src="images/figures/datanodes/protein.PNG" width="300"><a class="anchor" aria-label="anchor" href="#protein"><i class="fas fa-link"></i></a>
+</h3>
+<p>A biomolecular polymer of amino acids, translated from mRNA.</p>
+</div>
+<div id="dna" class="section level3" number="8.1.4">
+<h3>
+<span class="header-section-number">8.1.4</span> DNA <img src="images/figures/datanodes/dna.PNG" width="300"><a class="anchor" aria-label="anchor" href="#dna"><i class="fas fa-link"></i></a>
+</h3>
+<p>An entity representing a DNA polymer.</p>
+</div>
+<div id="rna" class="section level3" number="8.1.5">
+<h3>
+<span class="header-section-number">8.1.5</span> RNA <img src="images/figures/datanodes/rna.PNG" width="300"><a class="anchor" aria-label="anchor" href="#rna"><i class="fas fa-link"></i></a>
+</h3>
+<p>An entity representing a RNA peptide, including mRNA, miRNA, etc. This is commonly used to explicitly represent mRNA transcripts (excluding DNA or protein forms) or other RNA species, like miRNA, exRNA, lncRNA, etc</p>
+</div>
+<div id="complex-deprecated" class="section level3" number="8.1.6">
+<h3>
+<span class="header-section-number">8.1.6</span> Complex (deprecated)<a class="anchor" aria-label="anchor" href="#complex-deprecated"><i class="fas fa-link"></i></a>
+</h3>
+<p>The Complex Data Node Type is deprecated. Its use was similar to that of <a href="data-nodes.html#alias">Alias</a>.</p>
+</div>
+</div>
+<div id="concept-datanodes" class="section level2" number="8.2">
+<h2>
+<span class="header-section-number">8.2</span> Concept DataNodes<a class="anchor" aria-label="anchor" href="#concept-datanodes"><i class="fas fa-link"></i></a>
+</h2>
+<div id="pathway" class="section level3" number="8.2.1">
+<h3>
+<span class="header-section-number">8.2.1</span> Pathway <img src="images/figures/datanodes/pathway.PNG" width="300"><a class="anchor" aria-label="anchor" href="#pathway"><i class="fas fa-link"></i></a>
+</h3>
+<p>A biological process representing a set of interactions and relationships among genes, proteins, metabolites, and other factors in the context of cellular compartments, tissues and organisms.</p>
+</div>
+<div id="disease" class="section level3" number="8.2.2">
+<h3>
+<span class="header-section-number">8.2.2</span> Disease <img src="images/figures/datanodes/disease.PNG" width="300"><a class="anchor" aria-label="anchor" href="#disease"><i class="fas fa-link"></i></a>
+</h3>
+</div>
+<div id="phenotype" class="section level3" number="8.2.3">
+<h3>
+<span class="header-section-number">8.2.3</span> Phenotype <img src="images/figures/datanodes/phenotype.PNG" width="300"><a class="anchor" aria-label="anchor" href="#phenotype"><i class="fas fa-link"></i></a>
+</h3>
+</div>
+<div id="alias" class="section level3" number="8.2.4">
+<h3>
+<span class="header-section-number">8.2.4</span> Alias <img src="images/figures/datanodes/alias.PNG" width="300"><a class="anchor" aria-label="anchor" href="#alias"><i class="fas fa-link"></i></a>
+</h3>
+<p>An Alias is a special type of Data Node which can represent a Group pathway element (or other entity). Please see <a href="aliases.html#aliases">Aliases</a> for more information!</p>
+</div>
+<div id="event" class="section level3" number="8.2.5">
+<h3>
+<span class="header-section-number">8.2.5</span> Event <img src="images/figures/datanodes/event.PNG" width="300"><a class="anchor" aria-label="anchor" href="#event"><i class="fas fa-link"></i></a>
+</h3>
+</div>
+<div id="cellnode" class="section level3" number="8.2.6">
+<h3>
+<span class="header-section-number">8.2.6</span> CellNode <img src="images/figures/datanodes/cellnode.PNG" width="300"><a class="anchor" aria-label="anchor" href="#cellnode"><i class="fas fa-link"></i></a>
+</h3>
+</div>
+<div id="organ" class="section level3" number="8.2.7">
+<h3>
+<span class="header-section-number">8.2.7</span> Organ <img src="images/figures/datanodes/organ.PNG" width="300"><a class="anchor" aria-label="anchor" href="#organ"><i class="fas fa-link"></i></a>
+</h3>
+</div>
+<div id="undefined" class="section level3" number="8.2.8">
+<h3>
+<span class="header-section-number">8.2.8</span> Undefined <img src="images/figures/datanodes/undefined.PNG" width="300"><a class="anchor" aria-label="anchor" href="#undefined"><i class="fas fa-link"></i></a>
+</h3>
+<p>An unspecified biological entity or factor. Should only be used if the type is truly unknown or is different from the ones covered by other data node types.</p>
+
+</div>
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="pathway-elements.html"><span class="header-section-number">7</span> Pathway elements</a></div>
+<div class="next"><a href="aliases.html"><span class="header-section-number">9</span> Aliases</a></div>
+</div></main><div class="col-md-3 col-lg-3 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#data-nodes"><span class="header-section-number">8</span> Data Nodes</a></li>
+<li>
+<a class="nav-link" href="#molecular-datanodes"><span class="header-section-number">8.1</span> Molecular DataNodes</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#geneproduct"><span class="header-section-number">8.1.1</span> GeneProduct </a></li>
+<li><a class="nav-link" href="#metabolite"><span class="header-section-number">8.1.2</span> Metabolite </a></li>
+<li><a class="nav-link" href="#protein"><span class="header-section-number">8.1.3</span> Protein </a></li>
+<li><a class="nav-link" href="#dna"><span class="header-section-number">8.1.4</span> DNA </a></li>
+<li><a class="nav-link" href="#rna"><span class="header-section-number">8.1.5</span> RNA </a></li>
+<li><a class="nav-link" href="#complex-deprecated"><span class="header-section-number">8.1.6</span> Complex (deprecated)</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#concept-datanodes"><span class="header-section-number">8.2</span> Concept DataNodes</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#pathway"><span class="header-section-number">8.2.1</span> Pathway </a></li>
+<li><a class="nav-link" href="#disease"><span class="header-section-number">8.2.2</span> Disease </a></li>
+<li><a class="nav-link" href="#phenotype"><span class="header-section-number">8.2.3</span> Phenotype </a></li>
+<li><a class="nav-link" href="#alias"><span class="header-section-number">8.2.4</span> Alias </a></li>
+<li><a class="nav-link" href="#event"><span class="header-section-number">8.2.5</span> Event </a></li>
+<li><a class="nav-link" href="#cellnode"><span class="header-section-number">8.2.6</span> CellNode </a></li>
+<li><a class="nav-link" href="#organ"><span class="header-section-number">8.2.7</span> Organ </a></li>
+<li><a class="nav-link" href="#undefined"><span class="header-section-number">8.2.8</span> Undefined </a></li>
+</ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/Finterly/pathvisio-book//blob/master/datanodes.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/Finterly/pathvisio-book//edit/master/datanodes.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+</div>
+</div> 
+
+<!-- .container -->
+<footer class="bg-light text-light mt-5"><img id="acknowledgements" class="mx-auto d-none d-lg-block" src="images/logos/UM_PathVIsio_BiGCaT_Logo.png" width="800px"></footer>
+</body>
+</html>
