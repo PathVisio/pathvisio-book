@@ -2,9 +2,7 @@
 
 PathVisio Book is based on R Markdown and bookdown (https://github.com/rstudio/bookdown). The book was adapted from bookdown-demo. 
 
-PathVisio Book is automatically built and deployed by Github Actions. 
-
-## How to Edit Pathvisio Book 
+PathVisio Book is automatically built and deployed :rocket: by Github Actions. 
 
 The pages of PathVisio Book can be edited in the corresponding R Markdown files. To add a new page, create new R Markdown file and add to _bookdown yaml file.  
 
