@@ -9,21 +9,7 @@ documentclass: book
 cover-image: images/logos/pathvisio-logo-transparent.png
 github-repo: PathVisio/pathvisio-book-generation
 description: "Guide book for PathVisio."
-always_allow_html: yes
 ---
-
-```{r eval=FALSE, echo=FALSE}
-#Install required packages
-install.packages("bookdown")
-install.packages("emojifont")
-install.packages('knitr')
-remotes::install_github("rstudio/bslib")
-install.packages("downlit")
-install.packages("xml2")
-remotes::install_github("rstudio/bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
 
 ```{r, include=FALSE}
 #Load necessary libraries
