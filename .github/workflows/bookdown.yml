@@ -29,6 +29,8 @@ jobs:
           extra-packages: any::XML
 
       - name: Build site
+        run: Rscript -e 'install.packages("downlit")'
+        run: Rscript -e 'install.packages("xml2")'
         run: Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
 
       - name: Deploy to Netlify
