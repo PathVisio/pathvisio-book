@@ -1,6 +1,6 @@
 # Pathvisio Book
 
-PathVisio Book is based on R Markdown and bookdown (https://github.com/rstudio/bookdown). The book was adapted from bookdown-demo. 
+PathVisio Book is based on R Markdown and bookdown (https://github.com/rstudio/bookdown).
 
 PathVisio Book is automatically built and deployed :rocket: by Github Actions. 
 
