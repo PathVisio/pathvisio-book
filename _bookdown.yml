@@ -3,6 +3,7 @@ language:
   ui:
     chapter_name: ""
 new_session: yes
+delete_merged_file: true
 rmd_files:
   [
     "index.Rmd",
