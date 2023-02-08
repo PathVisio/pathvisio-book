@@ -29,7 +29,7 @@ jobs:
           extra-packages: any::XML
           
       - name: Install some Dependencies 
-        run: Rscript -e 'install.packages("downlit", "xml2")'
+        run: Rscript -e 'devtools::install_github('rstudio/bookdown@bs4-book-encoding', force = TRUE)'
 
       - name: Build site
         run: Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
