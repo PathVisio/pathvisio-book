@@ -10,7 +10,7 @@ Here we describe some of the commonly used terminology and concepts used in Path
 
 The main components of a pathway model are referred to as **Pathway Elements**. 
 
-```{r fig.align="center", echo=FALSE, fig.cap = "PathVisio4 user interface, with open pathway WP4876. In this diagram, we color DataNodes (Purple), States (Orange), Interactions/Graphical Lines (Light Blue), Lables (Red), Shapes (Green), and Groups (Dark Blue)."}
+```{r fig.align="center", out.width="80%", echo=FALSE, fig.cap = "PathVisio4 user interface, with open pathway WP4876. In this diagram, we color DataNodes (Purple), States (Orange), Interactions/Graphical Lines (Light Blue), Lables (Red), Shapes (Green), and Groups (Dark Blue)."}
 #TCA Cycle Pathway
 knitr::include_graphics("images/figures/pathway-parts.png")
 ```
