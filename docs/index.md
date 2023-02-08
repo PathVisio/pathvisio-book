@@ -15,28 +15,6 @@ always_allow_html: yes
 
 
 # Welcome {-} 
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "LearningResource",
-  "http://purl.org/dc/terms/conformsTo": {
-    "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
-    "@type": "CreativeWork"
-   },
-  "@id": "https://pathvisio.org/pathvisio-book/",
-  "name": "PathVisio Book",
-  "url": "https://pathvisio.org/pathvisio-book/",
-  "inLanguage": "en-gb",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Maastricht University"
-  },
-  "description": "Guide book for PathVisio.",
-  "copyrightYear": "2022",
-  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "keywords": "biological pathway, WikiPathways, PathVisio, Java, editor"
-}
-</script>
 <div class="figure" style="text-align: center">
 <img src="images/pathways/TCA-cycle.png" alt="Example TCA cycle pathway ([WP78](https://www.wikipathways.org/index.php/Pathway:WP78)) drawn using PathVisio and hosted on WikiPathways" width="488" />
 <p class="caption">(\#fig:unnamed-chunk-3)Example TCA cycle pathway ([WP78](https://www.wikipathways.org/index.php/Pathway:WP78)) drawn using PathVisio and hosted on WikiPathways</p>
