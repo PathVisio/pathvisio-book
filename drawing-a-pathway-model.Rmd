@@ -13,7 +13,7 @@ Follow the [WikiPathways Academy](https://wikipathways.org/academy/path.html) to
 
 ```{r, include-url, out.width='100%', dev='png', cache=TRUE, screenshot.opts=list(vwidth=992), echo=FALSE}
 # example pathways on wikipathways 
-knitr::include_url("https://new.wikipathways.org/academy/path.html")
+knitr::include_url("https://wikipathways.org/academy/path.html")
 ```
 
 ## Drawing on PathVisio
